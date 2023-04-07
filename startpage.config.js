@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "woox",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -25,15 +25,15 @@ const defaultConfig = {
 	terminal: {
 		fixedHeight: true,
 		windowGlow: true,
-		textGlow: false
+		textGlow: true
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command...",
+		placeholder: "something...",
 		placeholderColor: "gray",
-		userColor: "green",
+		userColor: "magenta",
 		atColor: "gray",
-		hostColor: "magenta",
+		hostColor: "red",
 		promptColor: "magenta",
 		promptSymbol: "❯",
 		caretColor: "green",
@@ -42,7 +42,7 @@ const defaultConfig = {
 	},
 	fetch: {
 		timeFormat: "HH:mm",
-		dateFormat: "DD/MM/YYYY",
+		dateFormat: "DD.MM.YYYY",
 		titleColor: "yellow",
 		image: "icon.svg",
 		data: [
@@ -62,7 +62,7 @@ const defaultConfig = {
 		hoverColor: "violet"
 	},
 	search: {
-		default: "https://google.com/search?q=",
+		default: "https://duckduckgo.com/?t=ffab&q=",
 		target: "_self",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
@@ -106,29 +106,29 @@ const defaultConfig = {
 	sections: {
 		list: [
 			{
-				title: "General",
+				title: "Daily",
 				color: "green",
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
+						name: "Gmail",
+						url: "https://mail.google.com/",
+						icon: "mdi:gmail"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "ProtonMail",
+						url: "https://mail.proton.me/",
+						icon: "arcticons:proton-mail-alt"
 					},
 					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
-						icon: "simple-icons:openai"
+						name: "YouTube",
+						url: "https://youtube.com/",
+						icon: "mdi:youtube"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						name: "Reddit",
+						url: "https://www.reddit.com/",
+						icon: "ic:baseline-reddit"
 					}
 				]
 			},
